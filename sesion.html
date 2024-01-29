@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registro</title>
+    <meta name="description" content="">
+    <style>
+        body {
+            background-image: url('im.jpg');
+            background-size: cover;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 70vh;
+        }
+
+        .form-container {
+            width: 10%;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10%;
+            margin: 0 40px;
+        }
+
+        form {
+            text-align: left;
+        }
+
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h1>Inicio Sesión</h1>
+            <form action="">
+                <label for="loginNombre">Usuario</label>
+                <input type="text" id="loginNombre">
+                <br>
+                <br>
+                <label for="loginContraseña">Contraseña</label>
+                <input id="loginContraseña" type="password">
+                <br>
+                <br>
+                <input type="submit" value="Enter">
+            </form>
+        </div>
+
+        <div class="form-container">
+            <h1>Registro</h1>
+            <form action="">
+                <label for="registroNombre">Nombre</label>
+                <input type="text" id="registroNombre">
+                <br>
+                <br>
+                <label for="registroApellido">Apellido</label>
+                <input type="text" id="registroApellido">
+                <br>
+                <br>
+                <label for="registroFechaNacimiento">Fecha de Nacimiento</label>
+                <input type="text" id="registroFechaNacimiento">
+                <br>
+                <br>
+                <label for="registroGmail">Correo</label>
+                <input type="text" id="registroGmail">
+                <br>
+                <br>
+                <label for="registroContraseña">Contraseña</label>
+                <input id="registroContraseña" type="password">
+                <br>
+                <br>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
